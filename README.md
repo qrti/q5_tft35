@@ -5,7 +5,7 @@
 <br>
 
 ### Summary
-Four brackets at the corners of the control box's display opening are screwed to the existing thread holes. The bracket's arms lead through the opening, holding a Makerbase MKS Robin TFT35 3.5" LCD display at an angle of 15 degrees for convenient operation.
+Four brackets at the corners of the control box's display opening are screwed to the existing thread holes. The bracket's arms lead through the opening, holding a Makerbase MKS Robin TFT35 3.5" LCD display at an angle of 15 degrees for convenient operation. This is a minimal solution, a casing might follow ...
 
 <br>
 
