@@ -5,7 +5,7 @@
 <br>
 
 ### Summary
-Four brackets at the corners of the control box's display opening are screwed to the existing thread holes. The bracket's arms lead through the opening, holding a Makerbase MKS Robin TFT35 3.5" LCD display at an angle of 15 degrees for convenient operation. This is a minimal solution, a casing might follow ...
+Four brackets at the corners of the control box's display opening are screwed to the existing thread holes. The bracket's arms lead through the opening, holding a Makerbase MKS Robin TFT35 3.5" LCD display at an angle of 15 degrees for convenient operation. A snap-in casing is also included.
 
 <br>
 
@@ -19,23 +19,27 @@ The existing 2.4" LCD is removed by unscrewing four fixing screws and unplugging
 
 <br>
 
-### Marlin configuration
+### Marlin configuration.h
 
-480 x 320 resolution must be activated
+version 2.0.9.1  
+```
+#define MKS_ROBIN_TFT35
+#define TFT_ROTATION TFT_ROTATE_180
+#define TFT_COLOR_UI
+#define TOUCH_SCREEN_CALIBRATION
+#define SINGLE_TOUCH_NAVIGATION
+#define TOUCH_CALIBRATION_AUTO_SAVE
+
+```
+
+version 2.0.7.2  
 ```
 #define TFT_480x320
-```
-
-the display is rotated 180 degree
-```
 #define TFT_ROTATION TFT_ROTATE_180         
-```
 
-these values might do as a starting point, the exact values can be found by issuing marlin M995 command
-```
-#define TOUCH_CALIBRATION_X     17191
-#define TOUCH_CALIBRATION_Y     -11709
-#define TOUCH_OFFSET_X          -34
+#define TOUCH_CALIBRATION_X     17191               // these values might do as a starting point, 
+#define TOUCH_CALIBRATION_Y     -11709              // the exact values can be found by issuing
+#define TOUCH_OFFSET_X          -34                 // marlin M995 command
 #define TOUCH_OFFSET_Y          332
 #define TOUCH_ORIENTATION       TOUCH_LANDSCAPE
 ```
@@ -57,7 +61,12 @@ https://www.thingiverse.com/thing:4909820
 
 ## Views
 
-Mounted display  
+Display with casing  
+<img src="images/view_01a.jpg" width=640>
+<br>
+<br>
+
+Display without casing  
 <img src="images/view_01.jpg" width=640>
 <br>
 <br>
@@ -99,9 +108,15 @@ Top
 <br>
 <br>
 
+Casing  
+<img src="images/render_01a.jpg" width=640>
+<br>
+<br>
+
+
 <br>
 <br>
 
 ---
 
-[qrt@qland.de](mailto:qrt@qland.de) 210716
+[qrt@qland.de](mailto:qrt@qland.de) 210725
