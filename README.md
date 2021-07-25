@@ -35,7 +35,7 @@ version 2.0.9.1
 version 2.0.7.2  
 ```
 #define TFT_480x320
-#define TFT_ROTATION TFT_ROTATE_180         
+#define TFT_ROTATION TFT_ROTATE_180
 
 #define TOUCH_CALIBRATION_X     17191               // these values might do as a starting point, 
 #define TOUCH_CALIBRATION_Y     -11709              // the exact values can be found by issuing
@@ -108,7 +108,7 @@ Top
 <br>
 <br>
 
-Casing  
+Snap-in casing  
 <img src="images/render_01a.jpg" width=640>
 <br>
 <br>
